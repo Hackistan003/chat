@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.Chat_Container{
+    display: flex;
+    margin-top:2rem ;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+.side_bar_item{
+    display: flex;
+    flex-direction: column;
+    flex-flow: column;
+    background-color: bisque;
+}
+.chat_area{
+    display: flex;
+}
+.persons{
+    flex-direction: column;
+    background-color: rgb(157, 230, 90);
+    overflow: scroll;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 20%;
+}
+.persons > * {
+    border: 1px solid rgb(71, 71, 71);
+    width: 100%;
+    padding: 0.3rem;
+}
+.chat_scroll_room{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+     overflow: scroll;
+    height: 80vh;
+    padding: 1rem;
+    
+}
+.p_sender{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(102, 226, 71);
+    border-radius: 1rem;
+    width: 70%;
+    padding: 0.5rem;
+}
+.p_reciever{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(71, 177, 226);
+    border-radius: 50px 20px;
+    width: 70%;
+    padding: 0.5rem;
+    margin-left: 10rem;
+
+}
+.self_data{
+    display: flex;
+    flex-direction: column;
+}
